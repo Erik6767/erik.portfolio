@@ -1,4 +1,4 @@
-/* Общие стили и сброс настроек */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,12 +7,11 @@
 }
 
 body {
-    background-color: #f7d147; /* Основной желтый цвет */
+    background-color: #f7d147; 
     color: #000000;
     overflow-x: hidden;
 }
 
-/* Кнопки в стиле Необрутализм */
 .btn {
     display: inline-block;
     padding: 12px 28px;
@@ -28,7 +27,7 @@ body {
 .btn-black {
     background-color: #111111;
     color: #ffffff;
-    box-shadow: 4px 4px 0px #00e5ff; /* Яркая бирюзовая тень */
+    box-shadow: 4px 4px 0px #00e5ff; 
 }
 
 .btn-yellow {
@@ -49,7 +48,6 @@ body {
     box-shadow: 1px 1px 0px #000000;
 }
 
-/* Шапка / Навигация */
 .navbar {
     background-color: #111111;
     display: flex;
@@ -58,7 +56,7 @@ body {
     padding: 15px 8%;
     border-bottom: 4px solid #000000;
     position: -webkit-sticky;
-    position: sticky; /* Меню зафиксировано сверху экрана */
+    position: sticky;
     top: 0;
     z-index: 1000;
 }
@@ -89,7 +87,6 @@ body {
     color: #f7d147;
 }
 
-/* Главный экран (Hero) */
 .hero-section {
     display: flex;
     justify-content: space-between;
@@ -117,7 +114,6 @@ body {
     gap: 15px;
 }
 
-/* Карточки с аватарами */
 .avatar-card {
     border: 4px solid #000000;
     border-radius: 16px;
@@ -137,7 +133,6 @@ body {
     background-color: #02bfa5;
 }
 
-/* Боковые соцсети */
 .social-sidebar {
     position: absolute;
     right: 3%;
@@ -161,15 +156,14 @@ body {
     box-shadow: 2px 2px 0px #000000;
 }
 
-/* Блок "About Me" */
 .about-section {
-    padding: 100px 5% 60px 5%; /* Сделали верхний отступ больше для точного переноса */
+    padding: 100px 5% 60px 5%;
     display: flex;
     justify-content: center;
 }
 
 .about-card {
-    background-color: #1d72fe; /* Синий */
+    background-color: #1d72fe;
     border: 4px solid #000000;
     border-radius: 20px;
     padding: 40px;
@@ -212,9 +206,9 @@ body {
     font-weight: 700;
 }
 
-/* Блок услуг (Services) */
+
 .services-section {
-    background-color: #e67e22; /* Оранжевый */
+    background-color: #e67e22;
     padding: 100px 8% 80px 8%;
     text-align: center;
     border-top: 4px solid #000000;
@@ -242,7 +236,7 @@ body {
 }
 
 .service-card {
-    background-color: #a55eea; /* Фиолетовый */
+    background-color: #a55eea; 
     border: 4px solid #000000;
     border-radius: 20px;
     padding: 40px 30px;
@@ -291,9 +285,8 @@ body {
     text-align: center;
 }
 
-/* Блок CTA (Contact) */
 .cta-section {
-    background-color: #2ecc71; /* Зеленый */
+    background-color: #2ecc71;
     padding: 100px 5%;
     text-align: center;
     border-top: 4px solid #000000;
@@ -307,7 +300,6 @@ body {
     margin-bottom: 30px;
 }
 
-/* Подвал (Footer) */
 .footer {
     background-color: #f7d147;
     padding: 60px 8% 20px 8%;
@@ -365,7 +357,6 @@ body {
     text-decoration: underline;
 }
 
-/* Адаптивность для мобильных */
 @media (max-width: 768px) {
     .navbar {
         position: static;
