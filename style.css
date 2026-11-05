@@ -51,7 +51,6 @@ a { text-decoration: none; }
     box-shadow: 1px 1px 0px #000000;
 }
 
-/* ШАПКА САЙТА (Растянута, углы скруглены) */
 .header {
     width: 100%;
     background-color: #0b0f19;
@@ -96,7 +95,6 @@ a { text-decoration: none; }
    color: #f7d147;
 }
 
-/* ГЛАВНЫЙ ЭКРАН (Hero) */
 .hero-section {
     display: flex;
     justify-content: space-between;
